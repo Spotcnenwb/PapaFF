@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>¡Feliz Día del Padre, Guerrero!</title>
+  <link rel="stylesheet" href="stilo.css">
+</head>
+<body>
+  <!-- Luces animadas -->
+  <div class="light light1"></div>
+  <div class="light light2"></div>
+
+  <div class="container">
+    <!-- Imagen local -->
+    <img src="imagenes/FF.png" alt="Guerrero" class="hero-img">
+
+    <h1>¡Feliz Día del Padre, Guerrero!</h1>
+    <p>
+      Hoy no solo celebramos a un papá... ¡celebramos a un héroe de batalla, protector del escuadrón y MVP de la vida!
+    </p>
+
+    <!-- Controles de audio -->
+    <div class="audio-controls">
+      <button class="audio-button" onclick="document.getElementById('bg-audio').play()">🔊 Reproducir</button>
+      <button class="audio-button" onclick="document.getElementById('bg-audio').pause()">🔇 Detener</button>
+    </div>
+
+    <!-- Audio local -->
+    <audio id="bg-audio" loop>
+      <source src="Audio/FF.mp3" type="audio/mpeg">
+      Tu navegador no soporta audio HTML5.
+    </audio>
+
+    <!-- Tarjetas estilo recompensa -->
+    <div class="cards">
+      <div class="card">
+        <h3>💥 Eres un verdadero líder</h3>
+        <p>Siempre al frente, dando el ejemplo.</p>
+      </div>
+      <div class="card">
+        <h3>🔥 Tu fuerza inspira</h3>
+        <p>Como un fuego eterno que nunca se apaga.</p>
+      </div>
+      <div class="card">
+        <h3>🎖️ MVP del corazón</h3>
+        <p>Tu presencia vale más que cualquier recompensa.</p>
+      </div>
+    </div>
+
+    <button class="button" onclick="alert('¡Papá, eres nuestra mejor victoria! 🏆')">🎁 Celebrar ahora</button>
+  </div>
+
+  <!-- Fuego animado -->
+  <div class="flame"></div>
+</body>
+</html>
